@@ -1,0 +1,130 @@
+@media only screen and (max-width: 320px) {
+    .menu-lat {
+        display: grid;
+        grid-template-columns: 3fr 9fr;
+    }
+    
+    .menu {
+        background-color: #d9d9d9;
+    }
+    
+    .menu-lat .menu .escrita {
+        padding: 15px;
+    }
+    
+    .menu-lat .menu .escrita .busca {
+        display: flex;
+        line-height: 28px;
+        align-items: center;
+        position: relative;
+        max-width: 300px;
+    }
+    
+    .input {
+        width: 100%;
+        height: 40px;
+        line-height: 28px;
+        padding: 0 1rem;
+        padding-left: 2.5rem;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        outline: none;
+        background-color: #C2B1B1;
+        color: #0d0c22;
+        transition: .3s ease;
+    }
+    
+    .input::placeholder {
+        color: #ffff;
+    }
+    
+    .input:focus,
+    input:hover {
+        outline: none;
+        border-color: #C2B1B1;
+        background-color: #C2B1B1;
+        box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+    }
+    
+    .icon {
+        position: absolute;
+        left: 1rem;
+        fill: #000;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 10px;
+    }
+    
+    .menu-lat .menu .escrita .visao-geral,
+    .menu-lat .menu .escrita .historia,
+    .menu-lat .menu .escrita .mapa,
+    .menu-lat .menu .escrita .produtores,
+    .menu-lat .menu .escrita .produtos,
+    .menu-lat .menu .escrita .beneficios,
+    .menu-lat .menu .escrita .processos,
+    .menu-lat .menu .escrita .noticias,
+    .menu-lat .menu .escrita .perguntas,
+    .menu-lat .menu .escrita .contato {
+        display: flex;
+    }
+    
+    .menu-lat .menu .escrita p {
+        margin-left: 10px;
+        color: #000;
+    }
+    
+    .menu-lat .menu .escrita img {
+        width: 20px;
+        margin-right: 15px;
+    }
+    
+    .menu-lat .menu .logo {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+    .escrita div {
+        padding: 15px;
+    }
+    
+    main header {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    main header p {
+        text-align: center;
+    }
+    
+    main div {
+        padding: 50px;
+    }
+    
+    details>summary {
+        padding: 4px;
+        width: 400px;
+        background-color: #C2B1B1;
+        ;
+        border: none;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        cursor: pointer;
+    }
+    
+    details>p {
+        background-color: #C2B1B1;
+        padding: 4px;
+        margin: 0;
+        box-shadow: 1px 1px 2px #bbbbbb;
+    }
+    
+    details {
+        margin-bottom: 20px;
+    }
+    
+    summary {
+        margin-bottom: 20px;
+    }
+}
